@@ -42,14 +42,16 @@ const Footer = () => (
             Copyright © 2021 - 2022 COLORADO FC. All rights reserved.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 relative">
             {socials.map((social) => (
-              <img
+              <a href={social.link}>
+                <img
                 key={social.name}
                 src={social.url}
                 alt={social.name}
-                className="w-[24px] h-[24px] object-contain cursor-pointer"
+                className={`w-[24px] h-[24px] object-cover cursor-pointer ${social.name === "tiktok" && "w-[35px] absolute left-[-30px] bottom-[-6px] h-[35px]"}`}
               />
+              </a>
             ))}
           </div>
         </div>

@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <main className="bg-black w-full min-h-screen scrollbar-hide">
       <Navbar />
+      <ColoradoFcSeciton />
       <div className="relative">
-        <ColoradoFcSeciton />
-      <div className="gradient-01 z-0" />
-      <About />
-    </div>
-      <Explore />
+        <About />
+        <div className="gradient-03 z-0" />
+        <Explore />
+      </div>
       <Schedule />
       <Footer />
     </main>

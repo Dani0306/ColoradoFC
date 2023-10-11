@@ -44,16 +44,19 @@ export const exploreCategories = [
 
   export const socials = [
     {
-      name: 'twitter',
-      url: '/twitter.svg',
+      name: 'tiktok',
+      url: '/tiktok.png',
+      link: "https://www.tiktok.com/@coloradofutbolclub"
     },
     {
       name: 'instagram',
       url: '/instagram.svg',
+      link: "https://www.instagram.com/coloradofutbolclub"
     },
     {
       name: 'facebook',
       url: '/facebook.svg',
+      link: "https://www.facebook.com/ColoradoFutbolClub"
     },
   ];
   
