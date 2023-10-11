@@ -34,15 +34,9 @@ export const exploreCategories = [
 
   export const newFeatures = [
     {
-      imgUrl: '/vrpano.svg',
-      title: 'A new world',
+      imgUrl: '/balon.png',
+      title: 'Sigue la Acción',
       subtitle:
-          'we have the latest update with new world for you to try never mind',
-    },
-    {
-      imgUrl: '/headset.svg',
-      title: 'More realistic',
-      subtitle:
-          'In the latest update, your eyes are narrow, making the world more realistic than ever',
+          "Mantente al tanto de los horarios para los partidos del próximo fin de semana en Colorado FC. ¡No te pierdas la acción!",
     },
   ];
