@@ -60,3 +60,9 @@ export const exploreCategories = [
     },
   ];
   
+
+  export const startingFeatures = [
+    'La inscripción en la escuela es totalmente gratuita, solo se requiere asumir el costo del uniforme.',
+    'Los nuevos participantes son invitados a un primer entrenamiento de prueba, que es totalmente gratuito.',
+    'Después de una o varias sesiones de entrenamiento, los jugadores son asignados a un equipo y se decide en qué torneo participarán.',
+  ];

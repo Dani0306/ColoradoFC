@@ -2,6 +2,7 @@ import About from "@/sections/About";
 import ColoradoFcSeciton from "@/sections/ColoradoFcSeciton";
 import Explore from "@/sections/Explore";
 import Footer from "@/sections/Footer";
+import GetStarted from "@/sections/GetStarted";
 import Navbar from "@/sections/Navbar";
 import Schedule from "@/sections/Schedule";
 
@@ -16,6 +17,7 @@ export default function Home() {
         <Explore />
       </div>
       <Schedule />
+      <GetStarted/>
       <Footer />
     </main>
   )
