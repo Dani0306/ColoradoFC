@@ -11,7 +11,7 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
-    className={`${styles.xPaddings} py-8 relative`}
+    className={`${styles.xPaddings} py-8 relative overflow-x-hidden`}
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
@@ -46,6 +46,7 @@ const Footer = () => (
             {socials.map((social) => (
               <a href={social.link}>
                 <img
+                title={social.name}
                 key={social.name}
                 src={social.url}
                 alt={social.name}

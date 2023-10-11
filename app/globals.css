@@ -50,7 +50,7 @@
   z-index: 1; /* Adjust the stacking order if needed */
 }
 
-
+/* 
   .footer-gradient {
     position: absolute;
     width: 500px;
@@ -59,7 +59,7 @@
     bottom: 0;
     background: linear-gradient(270deg, gold, red);
     filter: blur(150px);
-  }
+  } */
 
   .gradient-02 {
     position: absolute;
