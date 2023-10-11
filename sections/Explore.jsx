@@ -10,7 +10,7 @@ import { TitleText, TypingText } from '../components/CustomTexts';
 import ExploreCard from "../components/ExploreCard"
 
 const Explore = () => {
-  const [active, setActive] = useState('category-2');
+  const [active, setActive] = useState('category-3');
 
   return (
     <section className={`${styles.paddings}`} id="explore">
