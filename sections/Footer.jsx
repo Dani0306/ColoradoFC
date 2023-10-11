@@ -44,10 +44,9 @@ const Footer = () => (
 
           <div className="flex gap-4 relative">
             {socials.map((social) => (
-              <a href={social.link}>
+              <a key={social.name} href={social.link}>
                 <img
                 title={social.name}
-                key={social.name}
                 src={social.url}
                 alt={social.name}
                 className={`w-[24px] h-[24px] object-cover cursor-pointer ${social.name === "tiktok" && "w-[35px] absolute left-[-30px] bottom-[-6px] h-[35px]"}`}

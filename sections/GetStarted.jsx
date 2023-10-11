@@ -19,12 +19,12 @@ const GetStarted = () => (
     >
       <motion.div
         variants={planetVariants('left')}
-        className={`flex-1 ${styles.flexCenter} flex items-center justify-center`}
+        className={`flex-1 flex lg:items-center lg:justify-center items-end justify-end`}
       >
         <img
           src="/inscripcion.png"
           alt="get-started"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover mb-[-100px] lg:mb-auto md:mt-[190px]"
         />
       </motion.div>
       <motion.div
