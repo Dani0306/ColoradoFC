@@ -40,3 +40,20 @@ export const exploreCategories = [
           "Mantente al tanto de los horarios para los partidos del próximo fin de semana en Colorado FC. ¡No te pierdas la acción!",
     },
   ];
+
+
+  export const socials = [
+    {
+      name: 'twitter',
+      url: '/twitter.svg',
+    },
+    {
+      name: 'instagram',
+      url: '/instagram.svg',
+    },
+    {
+      name: 'facebook',
+      url: '/facebook.svg',
+    },
+  ];
+  

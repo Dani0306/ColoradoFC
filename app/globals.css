@@ -10,6 +10,18 @@
   scroll-behavior: smooth;
 }
 
+.more-info {
+  background-image: linear-gradient(270deg, red 0%, #BB9400 100%); /* Use a darker gold color */
+  color: white; /* Text color for the button */
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a text shadow to make it more visible */
+  border: none; /* Remove the button border */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+}
+
+
+
 .gradient-01 {
   background-image: linear-gradient(
     270deg,
@@ -37,3 +49,15 @@
   pointer-events: none; /* Allows clicks to pass through the overlay */
   z-index: 1; /* Adjust the stacking order if needed */
 }
+
+
+  .footer-gradient {
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 37%;
+    bottom: 0;
+    background: linear-gradient(270deg, gold, red);
+    filter: blur(150px);
+  }
+  
