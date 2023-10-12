@@ -18,7 +18,7 @@ const GetStarted = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={planetVariants('left')}
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         className={`flex-1 flex lg:items-center lg:justify-center items-end justify-end`}
       >
         <img
@@ -28,7 +28,7 @@ const GetStarted = () => (
         />
       </motion.div>
       <motion.div
-        variants={fadeIn('left', 'tween', 0.2, 1)}
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         className="flex-[0.75] flex justify-center flex-col"
       >
         <TypingText title="| Forma Parte del Equipo" />

@@ -19,7 +19,7 @@ export const exploreCategories = [
     },
     {
       id: 'category-4',
-      imgUrl: '/entrenadores.jpg',
+      imgUrl: '/entrenadores.jpeg',
       title: 'Nuestro Equipo de Entrenadores',
       text: "Conoce nuestro preparado equipo de entrenadores en Colorado FC. Son apasionados, dedicados y expertos en el desarrollo de jugadores. En cada entrenamiento y partido, guían a nuestros futbolistas hacia el éxito"
     },

@@ -9,7 +9,7 @@ import ScheduleComponent from "../components/SheduleComponent"
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 const Schedule = () => (
-  <section className={`${styles.paddings} relative z-10 overflow-x-hidden`}>
+  <section className={`${styles.paddings} relative z-10 overflow-hidden`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -18,7 +18,7 @@ const Schedule = () => (
       className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
     >
       <motion.div
-        variants={fadeIn('right', 'tween', 0.2, 1)}
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| 14 y 15 de Octubre" />
@@ -31,7 +31,7 @@ const Schedule = () => (
       </motion.div>
 
       <motion.div
-        variants={planetVariants('right')}
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
