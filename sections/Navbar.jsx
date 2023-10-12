@@ -28,6 +28,10 @@ const Navbar = () => {
           <div className={`w-[28px] h-[3px] bg-white my-[3px] transition-[transform] duration-500 ${showNavbar && "openButton2"}`}></div>
         </button>
         <ul className={`primary-navigation z-[2050] ${showNavbar && "abrir"}`}>
+
+          <li className={`w-full h-[50px] mt-[-50px] lg:mt-0 mb-[25px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.2s]`}>
+            <img src="/logo.png" className='w-[30px] h-[70px] object-cover' alt="logo" />
+          </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.5s]`}>
               Acerca De
           </li>
