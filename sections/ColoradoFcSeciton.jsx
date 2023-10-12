@@ -13,7 +13,7 @@ const ColoradoFcSeciton = () => {
             initial="hidden"
             whileInView="show"
             viewport={{ once: false, amount: 0.25 }}
-            className={`${styles.innerWidth} mx-auto relative flex flex-col items-center justify-center pt-[200px] md:pt-[240px]`}
+            className={`${styles.innerWidth} mx-auto relative flex flex-col items-center justify-center pt-[150px] md:pt-[240px]`}
         >
             <motion.h1 variants={textVariant(1.1)} className={`${styles.heroHeading} text-center max-w-[90%]`}>
                 Transformando sueños en logros.
