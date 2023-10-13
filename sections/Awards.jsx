@@ -22,7 +22,7 @@ const Awards = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| Reconocimientos Individuales" />
+        <TypingText title="| Premios Individuales" />
         <TitleText title={<>Nuestro Jugador Del Mes</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {contentAwards.map((description, index) => (
