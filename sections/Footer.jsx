@@ -11,6 +11,7 @@ const Footer = () => (
     variants={footerVariants}
     initial="hidden"
     whileInView="show"
+    id="redes"
     className={`${styles.xPaddings} py-8 relative overflow-x-hidden`}
   >
     <div className="footer-gradient" />

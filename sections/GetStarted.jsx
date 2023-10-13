@@ -9,7 +9,7 @@ import StartSteps from '../components/StartSteps';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
 const GetStarted = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+  <section id="inscripcion" className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"

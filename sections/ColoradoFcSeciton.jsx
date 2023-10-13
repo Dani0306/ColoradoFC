@@ -7,7 +7,7 @@ import { staggerContainer, textVariant, slideIn } from '@/utils/motion';
 
 const ColoradoFcSeciton = () => {
   return (
-    <section className={`${styles.yPaddings} flex w-full max-w-[1600px] mx-auto h-[90vh]`}>
+    <section id="main" className={`${styles.yPaddings} flex w-full max-w-[1600px] mx-auto h-[90vh]`}>
         <motion.div
             variants={staggerContainer}
             initial="hidden"

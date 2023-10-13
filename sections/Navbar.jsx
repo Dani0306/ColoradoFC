@@ -30,22 +30,24 @@ const Navbar = () => {
         <ul className={`primary-navigation z-[2050] ${showNavbar && "abrir"}`}>
 
           <li className={`w-full h-[50px] mt-[-50px] lg:mt-0 mb-[25px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.2s]`}>
-            <img src="/logo.png" className='w-[30px] h-[70px] object-cover' alt="logo" />
+            <a href="#main">
+              <img src="/logo.png" className='w-[30px] h-[70px] object-cover' alt="logo" />
+            </a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.5s]`}>
-              Acerca De
+              <a href="#about">Acerca De</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.8s]`}>
-              Explorar
+              <a href="#explorar">Explorar</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.1s]`}>
-              Programación
+              <a href="#programacion">Programación</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.4s]`}>
-              Inscripción
+              <a href="#inscripcion">Inscripción</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.7s]`}>
-              Nuestras Redes
+              <a href="#redes">Nuestras Redes</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2s]`}>
               Horarios De Entrenamiento

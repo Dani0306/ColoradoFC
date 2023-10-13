@@ -9,7 +9,7 @@ import ScheduleComponent from "../components/SheduleComponent"
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
 
 const Schedule = () => (
-  <section className={`${styles.paddings} relative z-10 overflow-hidden`}>
+  <section id="programacion" className={`${styles.paddings} relative z-10 overflow-hidden`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
