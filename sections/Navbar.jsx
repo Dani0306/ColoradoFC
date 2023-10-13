@@ -50,7 +50,7 @@ const Navbar = () => {
               Horarios De Entrenamiento
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2s]`}>
-              <a href="#premios">Estrellas Destacadas</a>
+              <a href="#reconocimientos">Estrellas Destacadas</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2.3s]`}>
               <a href="#redes">Nuestras Redes</a>

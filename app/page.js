@@ -1,4 +1,5 @@
 import About from "@/sections/About";
+import Awards from "@/sections/Awards";
 import ColoradoFcSeciton from "@/sections/ColoradoFcSeciton";
 import Explore from "@/sections/Explore";
 import Footer from "@/sections/Footer";
@@ -15,6 +16,7 @@ export default function Home() {
       <Explore />
       <Schedule />
       <GetStarted/>
+      <Awards />
       <Footer />
     </main>
   )
