@@ -19,7 +19,7 @@ const GetStarted = () => (
     >
       <motion.div
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className={`flex-1 flex lg:items-center lg:justify-center items-end justify-end`}
+        className={`flex-1 flex lg:items-center lg:justify-center items-end justify-end pb-[100px] lg:pb-0`}
       >
         <img
           src="/inscripcion.png"
