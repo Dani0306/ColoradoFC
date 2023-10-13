@@ -15,7 +15,7 @@ const Schedule = () => (
       initial="hidden"
       whileInView="show"
       viewport={{ once: false, amount: 0.25 }}
-      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8`}
+      className={`${styles.innerWidth} mx-auto flex lg:flex-row flex-col gap-8 pt-[100px]`}
     >
       <motion.div
         variants={fadeIn('up', 'tween', 0.2, 1)}

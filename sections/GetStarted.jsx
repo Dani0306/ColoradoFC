@@ -24,12 +24,12 @@ const GetStarted = () => (
         <img
           src="/inscripcion.png"
           alt="get-started"
-          className="w-full h-full object-cover mb-[-100px] lg:mb-auto md:mt-[190px]"
+          className="w-full h-full object-cover mb-[-100px]"
         />
       </motion.div>
       <motion.div
         variants={fadeIn('up', 'tween', 0.2, 1)}
-        className="flex-[0.75] flex justify-center flex-col"
+        className="flex-[0.75] flex justify-center flex-col mt-[-100px]"
       >
         <TypingText title="| Forma Parte del Equipo" />
         <TitleText title={<>Proceso de inscripción</>} />

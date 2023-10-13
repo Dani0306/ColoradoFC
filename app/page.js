@@ -11,11 +11,8 @@ export default function Home() {
     <main className="bg-black w-full min-h-screen scrollbar-hide">
       <Navbar />
       <ColoradoFcSeciton />
-      <div className="relative">
-        <About />
-        {/* <div className="gradient-03 z-0" /> */}
-        <Explore />
-      </div>
+      <About />
+      <Explore />
       <Schedule />
       <GetStarted/>
       <Footer />
