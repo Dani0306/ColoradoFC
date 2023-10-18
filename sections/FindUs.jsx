@@ -29,7 +29,7 @@ const FindUs = () => (
         variants={fadeIn('up', 'tween', 0.3, 1)}
         className="relative lg:mt-[30px] flex w-full h-[550px] items-center justify-center"
       >
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.076700588557!2d-75.54479350305323!3d6.33444204233403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f9f2a1d2825%3A0x7e766ec7911b6698!2sPuente%20Polideportivo%20Tulio%20Ospina!5e0!3m2!1sen!2sco!4v1697651961481!5m2!1sen!2sco" className='w-[90%] h-[400px] md:w-[600px] md:h-[450px] lg:w-[900px] lg:h-[500px]' style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.45602330243!2d-75.55300410321044!3d6.334924200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f9f1051590b%3A0xafc82f9a850f5dac!2sPolideportivo%20Tulio%20Ospina.%20Central%20Park!5e0!3m2!1sen!2sco!4v1697657808750!5m2!1sen!2sco" className='w-[90%] h-[400px] md:w-[600px] md:h-[450px] lg:w-[900px] lg:h-[500px]' style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </motion.div>
     </motion.div>
   </section>
