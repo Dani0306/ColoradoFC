@@ -13,10 +13,10 @@ export default function Home() {
     <main className="bg-black w-full min-h-screen max-h-max scrollbar-hide">
       <Navbar />
       <ColoradoFcSeciton />
+      <GetStarted/>
       <About />
       <Explore />
       <Schedule />
-      <GetStarted/>
       <Awards />
       <FindUs />
       <Footer />
