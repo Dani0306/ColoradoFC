@@ -15,6 +15,8 @@ const Navbar = () => {
   }
 
   return (
+    <>
+    {showNavbar && <div onClick={handleNavbar} className='w-full h-[100vh] fixed top-0left-0 z-[2000]'></div>}
     <motion.nav variants={navVariants}
     initial="hidden"
     whileInView="show"
@@ -27,6 +29,7 @@ const Navbar = () => {
           <div className={`w-[28px] h-[3px] bg-white my-[3px] transition-[transform] duration-500 ${showNavbar && "opacity-0"}`}></div>
           <div className={`w-[28px] h-[3px] bg-white my-[3px] transition-[transform] duration-500 ${showNavbar && "openButton2"}`}></div>
         </button>
+        
         <ul className={`primary-navigation z-[2050] ${showNavbar && "abrir"}`}>
 
           <li className={`w-full h-[50px] mt-[-50px] lg:mt-0 mb-[25px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.2s]`}>
@@ -61,6 +64,7 @@ const Navbar = () => {
     
           </ul>
     </motion.nav>
+    </>
   )
 }
 
