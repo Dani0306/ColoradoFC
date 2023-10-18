@@ -7,10 +7,7 @@ import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
-  <motion.footer
-    variants={footerVariants}
-    initial="hidden"
-    whileInView="show"
+  <footer
     id="redes"
     className={`${styles.xPaddings} py-8 relative overflow-x-hidden`}
   >
@@ -58,7 +55,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </motion.footer>
+  </footer>
 );
 
 export default Footer;
