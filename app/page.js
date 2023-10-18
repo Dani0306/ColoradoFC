@@ -10,7 +10,7 @@ import Schedule from "@/sections/Schedule";
 
 export default function Home() {
   return (
-    <main className="bg-black w-full min-h-screen scrollbar-hide">
+    <main className="bg-black w-full min-h-screen max-h-max scrollbar-hide">
       <Navbar />
       <ColoradoFcSeciton />
       <About />
