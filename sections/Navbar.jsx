@@ -53,6 +53,9 @@ const Navbar = () => {
               <a href="#reconocimientos">Estrellas Destacadas</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2.3s]`}>
+              <a href="#encuentranos">Ubicación</a>
+          </li>
+          <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2.6s]`}>
               <a href="#redes">Nuestras Redes</a>
           </li>
     
