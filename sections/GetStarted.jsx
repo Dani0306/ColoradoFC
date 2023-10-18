@@ -25,6 +25,7 @@ const GetStarted = () => (
           src="/inscripcion.png"
           alt="get-started"
           className="w-full h-full object-cover mb-[-100px]"
+          loading="lazy"
         />
       </motion.div>
       <motion.div

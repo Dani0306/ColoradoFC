@@ -38,6 +38,7 @@ const Schedule = () => (
           src="/programacion.jpg"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
+          loading="lazy"
         />
       </motion.div>
     </motion.div>

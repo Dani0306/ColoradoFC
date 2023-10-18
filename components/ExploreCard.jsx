@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Image from "next/image"
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
 
@@ -16,6 +16,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, text }) =>
     <img
       src={imgUrl}
       alt="planet-04"
+      loading='lazy'
       className="absolute w-full h-full object-cover rounded-[24px]"
     />
     {active !== id ? (
