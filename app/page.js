@@ -14,9 +14,9 @@ export default function Home() {
       <Navbar />
       <ColoradoFcSeciton />
       <GetStarted/>
+      <Schedule />
       <About />
       <Explore />
-      <Schedule />
       <Awards />
       <FindUs />
       <Footer />

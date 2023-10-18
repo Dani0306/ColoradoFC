@@ -38,16 +38,16 @@ const Navbar = () => {
               <a href="#inscripcion">!Soy Nuevo!</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.8s]`}>
-              <a href="#about">Acerca De</a>
+              <a href="#programacion">Programacíon</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.1s]`}>
-              <a href="#explorar">Explorar</a>
+              <a href="#about">Acerca De</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.4s]`}>
-              <a href="#">Horarios de Entrenamiento</a>
+              <a href="#explorar">Explorar</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.7s]`}>
-              <a href="#programacion">Programación</a>
+              <a href="#">Horarios de Entrenamiento</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2s]`}>
               <a href="#reconocimientos">Estrellas Destacadas</a>
