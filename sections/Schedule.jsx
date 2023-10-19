@@ -21,7 +21,7 @@ const Schedule = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="flex-[0.95] flex justify-center flex-col"
       >
-        <TypingText title="| 14 y 15 de Octubre" />
+        <TypingText title="| 21 y 22 de Octubre" />
         <TitleText title={<>Programación Colorado FC</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
           {newFeatures.map((feature) => (
