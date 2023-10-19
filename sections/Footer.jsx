@@ -11,7 +11,7 @@ const Footer = () => (
     variants={footerVariants}
     initial={{ opacity: 0 }}
     whileInView={{ opacity: 1 }}
-    transition={{ duration: 3 }}
+    transition={{ duration: 2 }}
     id="redes"
     className={`${styles.xPaddings} py-8 relative overflow-x-hidden mt-[50px]`}
   >
