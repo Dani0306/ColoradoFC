@@ -7,9 +7,13 @@ import styles from '../styles';
 import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
-  <footer
+  <motion.footer
+    variants={footerVariants}
+    initial={{ opacity: 0 }}
+    whileInView={{ opacity: 1 }}
+    transition={{ duration: 3 }}
     id="redes"
-    className={`${styles.xPaddings} py-8 relative overflow-x-hidden`}
+    className={`${styles.xPaddings} py-8 relative overflow-x-hidden mt-[50px]`}
   >
     <div className="footer-gradient" />
     <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
@@ -55,7 +59,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
-  </footer>
+  </motion.footer>
 );
 
 export default Footer;
