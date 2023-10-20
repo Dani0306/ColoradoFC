@@ -5,7 +5,10 @@ import styles from '@/styles';
 import { motion } from 'framer-motion'
 import { navVariants } from '@/utils/motion';
 import { Link } from "next/link"
-
+import { AiOutlineRocket, AiOutlineCalendar, AiOutlineInfoCircle, AiOutlineSearch, AiOutlineInstagram } from "react-icons/ai"
+import { CiLocationOn } from "react-icons/ci"
+import { BiFootball } from "react-icons/bi"
+import { LiaAwardSolid } from "react-icons/lia"
 const Navbar = () => {
 
   const [showNavbar, setShowNavbar] = useState(false);
@@ -38,27 +41,36 @@ const Navbar = () => {
             </a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.5s]`}>
+              <AiOutlineRocket className='!w-7 !h-7 text-white mr-3'/>
               <a href="#inscripcion">!Soy Nuevo!</a>
           </li>
+             
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.8s]`}>
+              <AiOutlineCalendar className='!w-7 !h-7 text-white mr-3'/>
               <a href="#programacion">Programacíon</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.1s]`}>
+              <AiOutlineInfoCircle className='!w-7 !h-7 text-white mr-3'/>
               <a href="#about">Acerca De</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.4s]`}>
+              <AiOutlineSearch className='!w-7 !h-7 text-white mr-3'/>
               <a href="#explorar">Explorar</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.7s]`}>
+              <BiFootball className='!w-7 !h-7 text-white mr-3'/>   
               <a href="#">Horarios de Entrenamiento</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2s]`}>
+              <LiaAwardSolid className='!w-7 !h-7 text-white mr-3'/>  
               <a href="#reconocimientos">Estrellas Destacadas</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2.3s]`}>
+              <CiLocationOn className='!w-7 !h-7 text-white mr-3'/>  
               <a href="#encuentranos">Ubicación</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2.6s]`}>
+              <AiOutlineInstagram className='!w-7 !h-7 text-white mr-3'/> 
               <a href="#redes">Nuestras Redes</a>
           </li>
     
