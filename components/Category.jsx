@@ -11,7 +11,7 @@ const Category = ({ items }) => {
           <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.7)]'/>
             <div className='z-[10]'>
               <TitleText textStyles={"text-center"} reduced title={<>Categoría {items.category}</>}/>    
-              <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="flex justify-center flex-col mt-[30px]">
+              <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="flex justify-center flex-col mt-[40px]">
                   <TypingText textStyles={"text-center"} reduced title={`| ${items.days[0]} - ${items.hours[0]} - ${items.places[0]}`} />
                   <TypingText textStyles={"text-center"} reduced title={`| ${items.days[1]} - ${items.hours[1]} - ${items.places[1]}`}  />
                   {
