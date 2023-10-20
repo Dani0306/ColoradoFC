@@ -19,7 +19,7 @@ const ColoradoFcSeciton = () => {
                 Transformando sueños en logros.
             </motion.h1>
             <motion.div variants={textVariant(1.5)} className='w-max h-max'>
-                <img loading="lazy" src="logo.png" className='w-[350px] h-[500px] md:h-[550px] object-cover' alt="logo" />
+                <img loading="lazy" src="logo.png" className='w-[350px] h-[400px] md:h-[500px] object-cover' alt="logo" />
             </motion.div>
         </motion.div>
     </section>
