@@ -35,7 +35,7 @@ const Schedule = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/programacion8oct.jpeg"
+          src="/Programacion21-22-OCT.jpg"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
           loading="lazy"
