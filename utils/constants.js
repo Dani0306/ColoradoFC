@@ -70,5 +70,5 @@ export const exploreCategories = [
   export const contentAwards = [{
     description: "El premio 'Jugador del Mes' es un homenaje a la dedicación y el rendimiento excepcional de uno de nuestros talentosos jugadores. Cada mes, destacamos a un miembro del equipo cuyo esfuerzo, pasión y habilidades han brillado en el campo. ", 
     title: "Descripción", 
-    imgUrl: "/trophy.png"
+    imgUrl: "/award.png"
   }]
