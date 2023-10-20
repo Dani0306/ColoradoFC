@@ -34,7 +34,7 @@ export const exploreCategories = [
 
   export const newFeatures = [
     {
-      imgUrl: '/balon.png',
+      imgUrl: '/calendar.png',
       title: 'Sigue la Acción',
       subtitle:
           "Mantente al tanto de los horarios para los partidos del próximo fin de semana en Colorado FC. ¡No te pierdas la acción!",
