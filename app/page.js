@@ -7,6 +7,7 @@ import Footer from "@/sections/Footer";
 import GetStarted from "@/sections/GetStarted";
 import Navbar from "@/sections/Navbar";
 import Schedule from "@/sections/Schedule";
+import Trainings from "@/sections/Trainings";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Schedule />
       <About />
       <Explore />
+      <Trainings />
       <Awards />
       <FindUs />
       <Footer />

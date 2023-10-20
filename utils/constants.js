@@ -72,3 +72,43 @@ export const exploreCategories = [
     title: "Descripción", 
     imgUrl: "/award.png"
   }]
+
+
+  export const trainingSchedule = [
+    {
+      category: "2009",
+      days: ["Lunes", "Martes", "Viernes"], 
+      hours: ["7:30pm", "4:30pm", "3:00pm" ], 
+      places: ["Cancha Auxiliar", "Cancha Fútbol 8", "Cancha Auxiliar"]
+    }, 
+    {
+      category: "2011/2012 - Competencia",
+      days: ["Lunes", "Martes", "Jueves"], 
+      hours: ["7:30pm", "4:30pm", "4:30pm"], 
+      places: ["Cancha Auxiliar", "Cancha Fútbol 8", "Cancha Fútbol 8"]
+    }, 
+    {
+      category: "2011/2012 - Formación", 
+      days: ["Lunes", "Miércoles", "Jueves"], 
+      hours: ["4:30pm", "4:00pm", "4:30pm"], 
+      places: ["Cancha Fútbol 5", "Cancha Fútbol 5", "Cancha Fútbol 8"]
+    },
+    {
+      category: "2013/2014",
+      days: ["Lunes", "Miércoles", "Sábado"], 
+      hours: ["5:30pm", "5:30pm", "7:30am"], 
+      places: ["Cancha Fútbol 5", "Cancha Fútbol 5", "Cancha Fútbol 5"]
+    },
+    {
+      category: "2015/2016", 
+      days: ["Martes", "Miércoles", "Sábado"], 
+      hours: ["6:00pm", "5:00pm", "7:30am"], 
+      places: ["Cancha Fútbol 5", "Cancha Fútbol 5", "Cancha Fútbol 5"]
+    }, 
+    {
+      category: "2017/2018", 
+      days: ["Lunes", "Sábado"], 
+      hours: ["5:00pm", "7:30am"], 
+      places: ["Cancha Fútbol 5", "Cancha Fútbol 5"]
+    }
+  ]

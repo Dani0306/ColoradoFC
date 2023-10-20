@@ -59,7 +59,7 @@ const Navbar = () => {
           </li>
           <li className={`w-full h-[60px] lg:h-[55px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.7s]`}>
               <BiFootball className='!w-7 !h-7 text-white mr-3'/>   
-              <a href="#">Horarios de Entrenamiento</a>
+              <a href="#entrenamientos">Horarios de Entrenamiento</a>
           </li>
           <li className={`w-full h-[55px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2s]`}>
               <LiaAwardSolid className='!w-7 !h-7 text-white mr-3'/>  
