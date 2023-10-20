@@ -57,13 +57,13 @@ const Navbar = () => {
               <AiOutlineSearch className='!w-7 !h-7 text-white mr-3'/>
               <a href="#explorar">Explorar</a>
           </li>
-          <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.7s]`}>
+          <li className={`w-full h-[60px] lg:h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.7s]`}>
               <BiFootball className='!w-7 !h-7 text-white mr-3'/>   
               <a href="#">Horarios de Entrenamiento</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2s]`}>
               <LiaAwardSolid className='!w-7 !h-7 text-white mr-3'/>  
-              <a href="#reconocimientos">Estrellas Destacadas</a>
+              <a href="#reconocimientos">Jugadores Destacadas</a>
           </li>
           <li className={`w-full h-[50px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2.3s]`}>
               <CiLocationOn className='!w-7 !h-7 text-white mr-3'/>  
