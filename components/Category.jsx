@@ -16,10 +16,10 @@ const Category = ({ items, activeIndex }) => {
             <div className='z-[10]'>
               <TitleText textStyles={"text-center"} reduced title={<>Categoría {items.category}</>}/>    
               <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="flex justify-center flex-col mt-[40px]">
-                  <TypingText textStyles={"text-justify"} reduced title={`| ${items.days[0]} - ${items.hours[0]} - ${items.places[0]}`} />
-                  <TypingText textStyles={"text-justify"} reduced title={`| ${items.days[1]} - ${items.hours[1]} - ${items.places[1]}`}  />
+                  <TypingText textStyles={"text-center lg:text-justify"} reduced title={`| ${items.days[0]} - ${items.hours[0]} - ${items.places[0]}`} />
+                  <TypingText textStyles={"text-center lg:text-justify"} reduced title={`| ${items.days[1]} - ${items.hours[1]} - ${items.places[1]}`}  />
                   {
-                    items.days[2] && <TypingText textStyles={"text-justify"} reduced title={`| ${items.days[2]} - ${items.hours[2]} - ${items.places[2]}`}  />
+                    items.days[2] && <TypingText textStyles={"text-center lg:text-justify"} reduced title={`| ${items.days[2]} - ${items.hours[2]} - ${items.places[2]}`}  />
                   }
               </motion.div>
             </div>
