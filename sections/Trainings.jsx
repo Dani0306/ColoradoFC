@@ -18,7 +18,7 @@ import 'swiper/css/scrollbar';
 
 const Trainings = () => {
   return (
-    <section className={`${styles.paddings} w-full h-[90vh]`}>
+    <section id='entrenamientos' className={`${styles.paddings} w-full h-[90vh]`}>
       
       <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.25 }} className="flex flex-col">
           <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="flex-[0.95] flex justify-center flex-col">
