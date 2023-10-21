@@ -14,7 +14,6 @@ import { trainingSchedule } from "../utils/constants"
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
 import SlidePrevButton from '@/components/SlidePrevButton';
 import SlideNextButton from '@/components/SlideNextButton';
 
