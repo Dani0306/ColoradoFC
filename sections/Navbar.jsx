@@ -47,7 +47,7 @@ const Navbar = () => {
              
           <li className={`w-full h-[55px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[0.8s]`}>
               <AiOutlineCalendar className='!w-7 !h-7 text-white mr-3'/>
-              <a href="#programacion">Programacíon</a>
+              <a href="#programacion">Programación</a>
           </li>
           <li className={`w-full h-[55px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[1.1s]`}>
               <AiOutlineInfoCircle className='!w-7 !h-7 text-white mr-3'/>
@@ -63,7 +63,7 @@ const Navbar = () => {
           </li>
           <li className={`w-full h-[55px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2s]`}>
               <LiaAwardSolid className='!w-7 !h-7 text-white mr-3'/>  
-              <a href="#reconocimientos">Jugadores Destacadas</a>
+              <a href="#reconocimientos">Jugadores Destacados</a>
           </li>
           <li className={`w-full h-[55px] flex items-center justify-start text-white font-normal ${showNavbar ? "appear" : "disappear"} transition-all duration-[2.3s]`}>
               <CiLocationOn className='!w-7 !h-7 text-white mr-3'/>  
