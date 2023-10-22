@@ -8,10 +8,11 @@ import GetStarted from "@/sections/GetStarted";
 import Navbar from "@/sections/Navbar";
 import Schedule from "@/sections/Schedule";
 import Trainings from "@/sections/Trainings";
+import { AiOutlineWhatsApp } from "react-icons/ai"
 
 export default function Home() {
   return (
-    <main className="bg-black w-full min-h-screen max-h-max scrollbar-hide">
+    <main className="bg-black w-full min-h-screen max-h-max scrollbar-hide relative">
       <Navbar />
       <ColoradoFcSeciton />
       <GetStarted/>
@@ -22,6 +23,9 @@ export default function Home() {
       <Awards />
       <FindUs />
       <Footer />
+      <a href="https://wa.me/573206976928" className="w-[50px] h-[50px] bg-[#25d366] text-white font-semibold fixed right-[30px] bottom-[30px] flex items-center justify-center rounded-xl z-[5000]">
+        <AiOutlineWhatsApp className="w-[35px] h-[35px] text-white"/>
+      </a>
     </main>
   )
 }
