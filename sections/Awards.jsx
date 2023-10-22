@@ -10,7 +10,7 @@ import { staggerContainer, fadeIn } from '../utils/motion';
 import ReactPlayer from 'react-player/youtube';
 
 const Awards = () => (
-  <section id="reconocimientos" className={`${styles.paddings} relative z-10 overflow-hidden`}>
+  <section id="reconocimientos" className={`${styles.paddings} relative z-10 overflow-hidden mt-[100px]`}>
     <motion.div
       variants={staggerContainer}
       initial="hidden"
