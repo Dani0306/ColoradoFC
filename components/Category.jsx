@@ -12,7 +12,7 @@ const Category = ({ items, activeIndex }) => {
             <motion.div variants={staggerContainer} initial="hidden" whileInView="show" viewport={{ once: false, amount: 0.25 }} className="relative bg-[url('/trainingbackground.png')] bg-cover lg:bg-contain bg-center w-full h-[350px] lg:w-[900px] lg:h-[500px] items-center justify-start lg:justify-center flex flex-col rounded-xl mt-[80px] pt-[50px] lg:pt-0">
               <SlidePrevButton activeIndex={activeIndex}/>
               <SlideNextButton activeIndex={activeIndex}/>
-          <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.6)]'/>
+          <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.7)]'/>
             <div className='z-[10]'>
               <TitleText textStyles={"text-center"} reduced title={<>Categoría {items.category}</>}/>    
               <motion.div variants={fadeIn('up', 'tween', 0.2, 1)} className="flex justify-center flex-col mt-[30px]">
